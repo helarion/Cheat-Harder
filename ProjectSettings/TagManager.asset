@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - spawn2
+  - spawn1
+  - Fall
+  - end2
+  - end1
+  - Plat
+  - Enemy
+  - Laser
+  - Bonus
+  - spawn3
+  - end3
+  - spawn4
+  - end4
+  - spawn5
+  - end5
+  - spawn6
+  - end6
+  - spawn7
+  - end7
+  - endLevel
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - MenuUi
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
