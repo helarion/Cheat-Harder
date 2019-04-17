@@ -331,6 +331,12 @@ public class GameManager : MonoBehaviour {
             Debug.Log("Saving");
             if (time < PlayerPrefs.GetFloat("Time" + i) || PlayerPrefs.GetFloat("Time" + i) == 0)
             {
+                for (int j = 10; j >=i; j--)
+                {
+                    PlayerPrefs.SetFloat("Time" + j, PlayerPrefs.GetFloat("Time" + (j - 1)));
+                    PlayerPrefs.SetString("Nick" + j, PlayerPrefs.GetString("Nick" + (j - 1)));
+                    PlayerPrefs.SetInt("Bonus" + j, PlayerPrefs.GetInt("Int" + (j - 1)));
+                }
                 Debug.Log("Boucle: " + i + " Time: " + time + " Name: " + playerName);
                 PlayerPrefs.SetFloat("Time" + i, time);
                 PlayerPrefs.SetString("Nick" + i, playerName);
